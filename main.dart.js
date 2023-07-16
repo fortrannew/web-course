@@ -67043,7 +67043,7 @@ if(q.c.I(o).f.a.a<500)s=1/0
 else if(q.c.I(o).f.a.a<=800)s=400
 else s=q.c.I(o).f.a.a<1100?300:400
 r=A.ay(B.a0,A.cC(A.a([new A.bc(new A.a2(10,10,10,10),A.ak5(B.kj,160,new A.lT(b),p),p),A.aB(c,p,p,p,p,A.aV(p,p,p,p,p,p,p,p,"Arial Bold",p,p,28,p,p,B.a4,p,p,!0,p,p,p,p,p,p,p,p),B.aU,p),A.bo(p,20,p),A.aB(a,p,p,p,p,A.aV(p,p,A.a9(255,117,117,117),p,p,p,p,p,p,p,p,22,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),B.aU,p)],t.p),B.t,B.u,B.R),B.f,B.l,p,p,p,m,p,n,B.RC,p,p,s)
-return q.c.I(o).f.a.a<1100&&q.c.I(o).f.a.a>800?r:A.en(r,1)},
+return q.c.I(o).f.a.a<1100?r:A.en(r,1)},
 a0r(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2=this,b3=null,b4="\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f",b5=4285235097,b6=4291611852,b7=4289374890,b8=4291448896,b9=4284900966,c0=t.l,c1=b2.c.I(c0).f.a.a<1050?new A.a2(20,80,20,40):new A.a2(40,40,40,40),c2=A.aV(b3,b3,B.l,b3,b3,b3,b3,b3,b3,b3,b3,34,b3,b3,B.a4,b3,b3,!0,b3,b3,b3,b3,b3,b3,b3,b3)
 c1=A.en(new A.bc(c1,A.e8(A.aB("\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u0443\u0439\u0442\u0435 \u0432 \u0443\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0444\u043e\u0440\u043c\u0435. \u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u0443\u0447\u0438\u0442\u044c\u0441\u044f \u043f\u0440\u044f\u043c\u043e \u0441\u0435\u0439\u0447\u0430\u0441!",b3,b3,b3,b3,c2,b2.c.I(c0).f.a.a<1050?B.aU:b3,b3),b3,b3),b3),1)
 c2=b2.c.I(c0).f.a.a<1050?new A.a2(10,10,10,10):new A.a2(40,40,40,40)
@@ -67098,7 +67098,7 @@ else o=s.c.I(o).f.a.a<450?B.RA:B.e3
 q=A.cC(A.a([n,A.ay(r,m,B.f,r,r,B.ki,r,r,r,r,o,r,r,1/0)],q),B.cO,B.en,B.a2)}else q=A.ay(r,A.cA(l,B.t,B.cB,B.R),B.f,r,r,B.ki,r,r,r,r,B.e3,r,r,1/0)
 return q},
 a0q(){var s,r,q,p,o=null,n=4279768861,m=t.p,l=A.a([],m)
-for(s=0;s<4;++s){r=["\u0421\u0442\u0430\u0442\u044c\u0438","\u0422\u043e\u0432\u0430\u0440\u044b","\u0423\u0441\u043b\u0443\u0433\u0438","\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0430\u0442\u044c"][s]
+for(s=0;s<4;++s){r=["\u0421\u0442\u0430\u0442\u044c\u0438","\u0422\u043e\u0432\u0430\u0440\u044b","\u0423\u0441\u043b\u0443\u0433\u0438","\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0430\u0442\u044c!"][s]
 r=A.ay(o,A.aB(r,o,o,o,o,new A.x(!0,new A.j(4284114806),o,o,o,o,18,B.a4,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o),o,o),B.f,o,o,o,o,o,o,new A.a2(0,0,20,0),o,o,o,o)
 q=this.c
 q.toString
@@ -67218,7 +67218,7 @@ A.um(A.fA(p,0,null))}},
 $S:0}
 A.Rl.prototype={
 a0y(a){var s,r,q,p=null,o=t.p,n=A.a([],o)
-for(s=0;s<4;++s){r=["\u0421\u0442\u0430\u0442\u044c\u0438","\u0422\u043e\u0432\u0430\u0440\u044b","\u0423\u0441\u043b\u0443\u0433\u0438","\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0430\u0442\u044c"][s]
+for(s=0;s<4;++s){r=["\u0421\u0442\u0430\u0442\u044c\u0438","\u0422\u043e\u0432\u0430\u0440\u044b","\u0423\u0441\u043b\u0443\u0433\u0438","\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0430\u0442\u044c!"][s]
 r=A.aB(r,p,p,p,p,new A.x(!0,B.l,p,p,p,p,18,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p),p,p)
 n.push(new A.wu(p,p,p,B.ar,A.ij(p,p,p,p,A.aDP(a)[s]!=null?A.aDP(a)[s]:new A.afV(s),p,r,p),p))}n.push(new A.vk(p,p,A.a9(255,85,130,207),p))
 r=A.Ax(A.a9(255,9,175,240),B.W,1)
